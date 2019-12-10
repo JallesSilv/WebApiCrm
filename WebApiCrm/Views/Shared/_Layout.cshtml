@@ -17,7 +17,9 @@
     </environment>
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
+
 <body>
+    @* Menu *@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
@@ -39,6 +41,8 @@
             </div>
         </nav>
     </header>
+
+    @*  Conteudo *@
     <div class="container">
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
@@ -46,11 +50,13 @@
         </main>
     </div>
 
+    @* Roda pé *@
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2019 - WebApiCrm - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>

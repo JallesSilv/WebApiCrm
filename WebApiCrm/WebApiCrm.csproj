@@ -5,25 +5,51 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Models\Cliente\**" />
+    <Compile Remove="Models\Financeiro\**" />
+    <Compile Remove="Models\Funcionario\**" />
+    <Compile Remove="Models\Produto\**" />
+    <Compile Remove="Models\Venda\**" />
+    <Compile Remove="Teste\**" />
+    <Content Remove="Models\Cliente\**" />
+    <Content Remove="Models\Financeiro\**" />
+    <Content Remove="Models\Funcionario\**" />
+    <Content Remove="Models\Produto\**" />
+    <Content Remove="Models\Venda\**" />
+    <Content Remove="Teste\**" />
+    <EmbeddedResource Remove="Models\Cliente\**" />
+    <EmbeddedResource Remove="Models\Financeiro\**" />
+    <EmbeddedResource Remove="Models\Funcionario\**" />
+    <EmbeddedResource Remove="Models\Produto\**" />
+    <EmbeddedResource Remove="Models\Venda\**" />
+    <EmbeddedResource Remove="Teste\**" />
+    <None Remove="Models\Cliente\**" />
+    <None Remove="Models\Financeiro\**" />
+    <None Remove="Models\Funcionario\**" />
+    <None Remove="Models\Produto\**" />
+    <None Remove="Models\Venda\**" />
+    <None Remove="Teste\**" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
 
   <ItemGroup>
     <Folder Include="Controllers\Funcionario\" />
-    <Folder Include="Controllers\Cliente\" />
     <Folder Include="Controllers\Financeiro\" />
     <Folder Include="Controllers\Produto\" />
     <Folder Include="Controllers\Venda\" />
-    <Folder Include="Models\Cliente\" />
-    <Folder Include="Models\Financeiro\" />
-    <Folder Include="Models\Funcionario\" />
-    <Folder Include="Models\Produto\" />
-    <Folder Include="Models\Venda\" />
-    <Folder Include="Teste\" />
+    <Folder Include="Views\Cliente\" />
+    <Folder Include="Views\Financeiro\" />
+    <Folder Include="Views\Funcionario\" />
+    <Folder Include="Views\Venda\" />
+    <Folder Include="Views\Produto\" />
   </ItemGroup>
 
 </Project>

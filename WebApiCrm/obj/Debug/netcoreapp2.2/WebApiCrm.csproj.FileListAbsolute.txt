@@ -27,3 +27,4 @@ C:\Users\jalles\source\repos\WebApiCrm\WebApiCrm\obj\Debug\netcoreapp2.2\WebApiC
 C:\Users\jalles\source\repos\WebApiCrm\WebApiCrm\obj\Debug\netcoreapp2.2\WebApiCrm.dll
 C:\Users\jalles\source\repos\WebApiCrm\WebApiCrm\obj\Debug\netcoreapp2.2\WebApiCrm.pdb
 C:\Users\jalles\source\repos\WebApiCrm\WebApiCrm\obj\Debug\netcoreapp2.2\WebApiCrm.csproj.CopyComplete
+C:\Users\jalles\source\repos\WebApiCrm\WebApiCrm\obj\Debug\netcoreapp2.2\WebApiCrm.csprojAssemblyReference.cache
