@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Controllers\Funcionario\" />
+    <Folder Include="Controllers\Cliente\" />
+    <Folder Include="Controllers\Financeiro\" />
+    <Folder Include="Controllers\Produto\" />
+    <Folder Include="Controllers\Venda\" />
+    <Folder Include="Models\Cliente\" />
+    <Folder Include="Models\Financeiro\" />
+    <Folder Include="Models\Funcionario\" />
+    <Folder Include="Models\Produto\" />
+    <Folder Include="Models\Venda\" />
+    <Folder Include="Teste\" />
+  </ItemGroup>
+
+</Project>
