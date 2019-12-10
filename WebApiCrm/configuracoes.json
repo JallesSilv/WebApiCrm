@@ -1,6 +1,6 @@
 {
-  "DataSource": "jalles",
-  "InitialCatalog": "WebCrm",
-  "UserID": "webapto",
-  "Password": "web123"
+  "DataSource": "ESI-PRJ22",
+  "InitialCatalog": "teste",
+  "UserID": "Engegraph",
+  "Password": "DevEngegraph"
 }

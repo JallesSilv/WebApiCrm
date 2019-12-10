@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jalles\\source\\repos\\WebApiCrm\\WebApiCrm\\WebApiCrm.csproj": {}
+    "D:\\Desenvolvimento\\Estudo\\WebApiCrm\\WebApiCrm\\WebApiCrm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jalles\\source\\repos\\WebApiCrm\\WebApiCrm\\WebApiCrm.csproj": {
+    "D:\\Desenvolvimento\\Estudo\\WebApiCrm\\WebApiCrm\\WebApiCrm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jalles\\source\\repos\\WebApiCrm\\WebApiCrm\\WebApiCrm.csproj",
+        "projectUniqueName": "D:\\Desenvolvimento\\Estudo\\WebApiCrm\\WebApiCrm\\WebApiCrm.csproj",
         "projectName": "WebApiCrm",
-        "projectPath": "C:\\Users\\jalles\\source\\repos\\WebApiCrm\\WebApiCrm\\WebApiCrm.csproj",
-        "packagesPath": "C:\\Users\\jalles\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jalles\\source\\repos\\WebApiCrm\\WebApiCrm\\obj\\",
+        "projectPath": "D:\\Desenvolvimento\\Estudo\\WebApiCrm\\WebApiCrm\\WebApiCrm.csproj",
+        "packagesPath": "C:\\Users\\jalles.silva\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenvolvimento\\Estudo\\WebApiCrm\\WebApiCrm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\jalles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jalles.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,33 +41,61 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
+            "Microsoft.ApplicationInsights.AspNetCore": {
               "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
+              "version": "[2.6.1, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Xml": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Mvc.Versioning": {
               "target": "Package",
               "version": "[4.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[3.2.0, )"
             },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Ninject": {
+              "target": "Package",
+              "version": "[3.3.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
