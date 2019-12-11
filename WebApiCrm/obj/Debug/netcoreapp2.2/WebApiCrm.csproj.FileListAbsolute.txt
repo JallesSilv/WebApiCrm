@@ -60,4 +60,3 @@ D:\Desenvolvimento\Estudo\WebApiCrm\WebApiCrm\bin\Debug\netcoreapp2.2\WebApiCrm.
 D:\Desenvolvimento\Estudo\WebApiCrm\WebApiCrm\bin\Debug\netcoreapp2.2\WebApiCrm.Views.dll
 D:\Desenvolvimento\Estudo\WebApiCrm\WebApiCrm\bin\Debug\netcoreapp2.2\WebApiCrm.Views.pdb
 D:\Desenvolvimento\Estudo\WebApiCrm\WebApiCrm\obj\Debug\netcoreapp2.2\WebApiCrm.csproj.CopyComplete
-D:\Desenvolvimento\Estudo\WebApiCrm\WebApiCrm\obj\Debug\netcoreapp2.2\WebApiCrm.csprojAssemblyReference.cache

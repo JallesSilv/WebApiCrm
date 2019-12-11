@@ -1,6 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Infrastructure;
-using WebApiCrm.Models.Auxiliar;
 using WebApiCrm.Models.Entidades;
 
 namespace WebApiCrm.Models.DAO
@@ -18,15 +16,11 @@ namespace WebApiCrm.Models.DAO
             
         }
 
-        
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             
-            
         }
-                
-        public DbSet<Cliente> Cliente { get; set; }
 
+        public DbSet<Cliente> Cliente { get; set; }
     }
 }

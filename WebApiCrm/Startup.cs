@@ -34,8 +34,6 @@ namespace WebApiCrm
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-
             services.AddMvc()
              .SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
              .AddJsonOptions(opcoes =>
@@ -44,7 +42,6 @@ namespace WebApiCrm
                   Newtonsoft.Json.NullValueHandling.Ignore;
              })
              .AddXmlSerializerFormatters();
-                       
             
             services.AddDbContext<ProductDbContext>(opt =>
                 opt.UseSqlServer(FactoryConnection.connection)
@@ -72,7 +69,6 @@ namespace WebApiCrm
                 options.EnableForHttps = true;
             });
 
-
             services.AddVersionedApiExplorer(options =>
             {
                 options.GroupNameFormat = "'v'VVV";
@@ -82,7 +78,7 @@ namespace WebApiCrm
             services.AddApiVersioning();
             services.AddResponseCaching();
 
-
+            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
